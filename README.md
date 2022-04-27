@@ -9,3 +9,9 @@
 - HTML and CSS
 - Javascript
 - OpenWeatherMap
+
+## How is it working
+
+- We are sending request to the API to provide us information after giving a lcoation.
+- API is returning us the information.
+- We are displaying that information on our screen for the users.
