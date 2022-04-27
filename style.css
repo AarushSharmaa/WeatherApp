@@ -36,10 +36,10 @@ button {
     background: #7c7c7c2b;
     color: white;
     cursor: pointer;
-    transition: 0.5s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
-.search-bar {
+input.search-bar {
     border: none;
     outline: none;
     padding: 0.4em 1em;
@@ -58,4 +58,37 @@ button:hover {
 h1.temp {
     margin: 0;
     margin-bottom: 0.4em;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+a {
+    margin-top: 7%;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
