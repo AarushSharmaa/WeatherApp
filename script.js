@@ -9,7 +9,7 @@
 let weather = {
 
     //apiKey is used to access weather -- given via OpenWeatherApp
-    apiKey: "2e5534b50911519d60777feee2576606",
+    apiKey: "API Key Goes here",
 
     // a function called fetchWeather to request data from API
     fetchWeather: function(city) {
